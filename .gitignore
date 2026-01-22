@@ -1,4 +1,79 @@
+# ===============================
+# Node / React / MERN
+# ===============================
+
 node_modules
+node_modules/
 .env
+.env.*
+!.env.example
+
 dist
 build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Caches
+.cache
+.parcel-cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Framework outputs
+.next
+out
+.nuxt
+.vuepress/dist
+.temp
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+
+# Tooling
+.grunt
+bower_components
+jspm_packages
+web_modules
+.lock-wscript
+
+# Databases / services
+.dynamodb/
+.firebase/
+.serverless/
+
+# Editors
+.vscode-test
+
+# Yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Vite logs
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

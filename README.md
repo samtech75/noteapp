@@ -9,12 +9,13 @@ A full-stack Note Application built using MERN Stack.
 - Responsive React UI
 
 ## Tech Stack
-Frontend:
+
+### Frontend
 - React
 - Bootstrap
 - Axios
 
-Backend:
+### Backend
 - Node.js
 - Express.js
 - MongoDB
